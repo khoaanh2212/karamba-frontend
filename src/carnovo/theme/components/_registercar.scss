@@ -1,0 +1,256 @@
+#register-car {
+  .heading {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    h1 {
+      color: $grey-form-text;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+    p {
+      margin: auto;
+      width: 525px;
+      height: 44px;
+      color: $grey-form-text;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 22px;
+    }
+  }
+
+  .configuration-content {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+
+    .filter-type-icon {
+      background-position: center;
+      background-size: 24px, 24px;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .choose-filters-wrapper {
+      padding: 16px 50px 0 50px;
+    }
+
+    .seperated {
+      border-bottom: 1px solid #CCC;
+      width: 80%;
+      margin: auto;
+    }
+
+    .choose-filters {
+      display: block;
+      padding-bottom: 16px;
+
+      .filter-type {
+        text-align: center;
+        float: left;
+        display: block;
+        min-width: 130px;
+        width: 100% !important;
+
+        .filter-type-label {
+          color: #535353;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 16px;
+          padding-top: 10px;
+        }
+      }
+
+      .filter-type-options {
+
+        .filter-type-option-wrapper {
+          padding: 10px 10px 10px 0;
+        }
+
+        .filter-type-option {
+          float: left;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          cursor: pointer;
+          padding: 22px 8px;
+          text-align: center;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          color: #4c4f52;
+          display: table;
+          table-layout: fixed;
+          min-width: 110px;
+          width: 100%;
+          .filter-type-option-title {
+            padding: 0 0 0 2px;
+            display: inline-block;
+            color: #535353;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 16px;
+          }
+        }
+
+        .filter-type-option:hover {
+          border-color: #00A4FF;
+        }
+
+        .selected-filter-type {
+          background-color: #00A4FF;
+          color: #ffffff !important;
+          border-color: #00A4FF;
+        }
+      }
+    }
+
+    .choose-filters::after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+
+    .seat-3-icon {
+      background-image: url('img/car-register/seat-3.svg');
+    }
+
+    .seat-5-icon {
+      background-image: url('img/car-register/seat-5.svg');
+    }
+  }
+
+  .choose-filters-actions-wrapper {
+    padding: 0 50px 0 50px;
+  }
+  .choose-filters-actions {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .choose-filters-action {
+      float: left;
+      display: block;
+      text-align: center;
+
+      input[type=submit] {
+        border: 1px solid #ccc;
+        margin: auto;
+        width: 200px;
+      }
+    }
+
+    .choose-filters-action-back input[type=submit] {
+      background: $white;
+      font-weight: bold;
+    }
+
+    .choose-filters-action-next input[type=submit] {
+      background: #2ecc71;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+}
+
+.configuration-progress {
+
+  .register-progress-bar {
+    margin-bottom: 0;
+    padding-top: 50px;
+    width: 100%;
+
+    ol {
+      counter-reset: li;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      float: left;
+    }
+
+    ol > li {
+      list-style: none;
+      display: block;
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      padding-left: 0;
+      padding-right: 0;
+      a {
+        color: #a6a6a6;
+      }
+    }
+
+    ol > li:before {
+      z-index: 50;
+      content: counter(li);
+      counter-increment: li;
+      display: block;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      line-height: 28px;
+      margin: 0 auto 6px auto;
+      color: #00A4FF;
+      position: relative;
+      border-radius: 50%;
+      border: 2px solid #00A4FF;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: white;
+    }
+
+    ol > li:after {
+      content: " ";
+      width: 100%;
+      height: 2px;
+      background-color: #dddddd;
+      display: block;
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      z-index: 0;
+    }
+
+    ol > li.current:before {
+      border: 2px solid #2ecc71;
+      content: "";
+      width: 30px;
+      height: 30px;
+    }
+
+    ol > li.completed:before {
+      background-color: #2ecc71;
+      background-image: url('img/car-register/completed.svg');
+      background-repeat: no-repeat;
+      background-size: 32px 32px;
+      background-position: center center;
+      font-family: inherit !important;
+      content: "" !important;
+      border: none;
+    }
+
+    ol > li.completed:after {
+      background-color: #2ecc71;
+    }
+
+    ol > li.last:after {
+      content: "";
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    ol::after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+  }
+}

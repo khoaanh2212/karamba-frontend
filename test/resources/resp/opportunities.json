@@ -1,0 +1,84 @@
+{
+  "status": 0,
+  "data": {
+    "opportunities": [
+      {
+        "id": "w45gr-w4y6rt-w4y5rst-45rt",
+        "brand": "Audi",
+        "model": "A4",
+        "pvp": "41600",
+        "clientName": "José F.",
+        "numberOffers": "0",
+        "state": "new_opportunity",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": true
+      },
+      {
+        "id": "4r24gr-w4yhrtrt-w4st-45rt",
+        "brand": "BMW",
+        "model": "3 Series",
+        "pvp": "38400",
+        "clientName": "David G.",
+        "numberOffers": "1",
+        "state": "sent_offer",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": false
+      },
+      {
+        "id": "aer-w4y6rt-w24rrst-45rt",
+        "brand": "Volkswagen",
+        "model": "Golf GTI",
+        "pvp": "25300",
+        "clientName": "María B.",
+        "numberOffers": "3",
+        "state": "replied",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": false
+      },
+      {
+        "id": "twfrr-w43qgt-w4y5f4st-45rt",
+        "brand": "Ferrari",
+        "model": "LaFerrari",
+        "pvp": "145000",
+        "clientName": "Nicolás L.",
+        "numberOffers": "4",
+        "state": "withdrawn",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": false
+      },
+      {
+        "id": "stwfrr-df3a-w4y5f4st-45rt",
+        "brand": "Ferrari",
+        "model": "LaFerrari v1",
+        "pvp": "145000",
+        "clientName": "Nicolás L.1",
+        "numberOffers": "4",
+        "state": "won",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": true
+      },
+      {
+        "id": "tw425r-wtwfgt-w545st-45rt",
+        "brand": "Ferrari",
+        "model": "LaFerrari v2",
+        "pvp": "145000",
+        "clientName": "Nicolás L.2",
+        "numberOffers": "4",
+        "state": "lost",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": false
+      },
+      {
+        "id": "twfrr-w43qgt-w4y5f4st-45rt",
+        "brand": "Ferrari",
+        "model": "LaFerrari v3",
+        "pvp": "145000",
+        "clientName": "Nicolás L.3",
+        "numberOffers": "4",
+        "state": "new_opportunity",
+        "displayDatetime": "18 May 2016 17:54",
+        "isRead": false
+      }
+    ]
+  }
+}

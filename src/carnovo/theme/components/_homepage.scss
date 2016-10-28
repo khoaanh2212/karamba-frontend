@@ -1,0 +1,182 @@
+#client-home {
+  .section-first {
+    background: url("img/background.jpg") center center;
+    background-size: cover;
+
+    &-inner {
+      height: 629px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h1 {
+        color: $white;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 42px;
+      }
+
+      h4 {
+        margin-top: 0;
+        margin-bottom: 60px;
+        color: $white;
+        font-size: 22px;
+      }
+
+      .btn {
+        margin-top: 30px;
+      }
+
+      .btn-default {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .btn-success:hover {
+        background-color: #54d98c !important;
+      }
+      .btn-success:active, .btn-success:focus {
+        background-color: #2ecc71 !important;
+      }
+    }
+
+    .find-out-more {
+      text-align: center;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 15px auto;
+      color: #fff;
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  .section-second {
+    background: $white;
+    color: $grey-dark;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: $white;
+
+    div.icons {
+      display: flex;
+      height:175px;
+
+      &.margin-icon img {
+        margin-top: 20px;
+      }
+
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    img {
+      width: inherit;
+    }
+
+    h2 {
+      color: $black;
+      font-size: 26px;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      color: $grey-dark;
+    }
+  }
+
+  .section-trustpilot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid $border-light;
+    border-bottom: 1px solid $border-light;
+
+    .svg-icon-star {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+      color: white;
+      border-radius: 3px;
+      background-color: #2ecc71;
+    }
+
+    .trustpilot-text {
+      font-size: 19px;
+      color: #686c70;
+      font-weight: 400;
+    }
+
+    .trustpilot-wide-score-current {
+      color: #2ecc71;
+    }
+
+    .trustpilot-wide-score {
+      color: #a6a6a6;
+    }
+  }
+
+  .section-third {
+    height: 400px;
+    background: url("img/pic-board-2.png") center center;
+    background-size: cover;
+  }
+
+  .section-fourth {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    .item {
+      display: flex;
+
+      .pic {
+        margin-right: 30px;
+        width: 64px;
+        flex-shrink: 0;
+      }
+
+      h1 {
+        font-size: 26px;
+        margin: 0;
+        color: $grey-black;
+      }
+
+      p {
+        font-size: 16px;
+        color: $grey-dark;
+      }
+    }
+  }
+
+  .section-fifth {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 1px solid $border-light;
+    .btn-success:hover {
+      background-color: #54d98c !important;
+      border: none !important;
+    }
+    .btn-success:active, .btn-success:focus {
+      background-color: #2ecc71 !important;
+      border: none !important;
+    }
+
+    h1 {
+      margin: 0 0 30px 0;
+      font-size: 26px;
+      color: $grey-black;
+    }
+  }
+  .model-logo {
+    text-align: center;
+    line-height: 80px;
+  }
+}

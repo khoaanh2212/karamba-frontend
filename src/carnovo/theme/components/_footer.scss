@@ -1,0 +1,85 @@
+footer {
+  background: $secondary;
+
+  .section-sixth {
+    padding: 25px;
+    border-top: 1px solid $border-light;
+    font-size: 13px;
+    background: $white;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: $primary;
+    }
+
+    .ic-close {
+      font-size: 11px;
+      margin: 0 0 0 10px;
+      vertical-align: middle;
+      cursor: pointer;
+      color: $grey-form-text;
+    }
+  }
+
+  .footer-header {
+    height: 80px;
+    line-height: 80px;
+
+    img {
+      opacity: 0.5;
+    }
+  }
+
+  .text-bold {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .text-normal {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .footer-content {
+    color: $white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 1px solid $border-grey;
+  }
+
+  .footer-menu {
+    background: $background-footer;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: $white;
+    border-bottom: 1px solid $border-dark;
+
+    .text-normal {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .icon {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    .list-inline li {
+      margin-left: 30px;
+    }
+
+    .list-inline a {
+      line-height: 32px;
+      color: white;
+    }
+  }
+
+  .footer-last {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: $background-footer;
+    color: rgba($white, 0.5);
+  }
+}

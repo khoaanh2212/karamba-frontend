@@ -1,0 +1,10 @@
+{
+  "status": 0,
+  "data": {
+    "gifts": [
+      {"label":"Deliberry","price":"20€"},
+      {"label":"Hailo","price":"10€"},
+      {"label":"Glovo","price":"10€"},
+      {"label":"MyTaxi","price":"10€"}]
+  }
+}

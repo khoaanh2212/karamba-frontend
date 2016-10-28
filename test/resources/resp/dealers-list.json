@@ -1,0 +1,12 @@
+{
+  "status": 0,
+  "data": {
+    "dealers": [
+      {"id": "1", "vendorName": "Mascherano"},
+      {"id": "2", "vendorName": "Messi"},
+      {"id": "3", "vendorName": "Neymar"},
+      {"id": "4", "vendorName": "Xavi Hez"},
+      {"id": "5", "vendorName": "Iker Casillas"}
+    ]
+  }
+}

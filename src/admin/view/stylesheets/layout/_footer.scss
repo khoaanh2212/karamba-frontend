@@ -1,0 +1,41 @@
+footer {
+  background: $secondary;
+  width: 100%;
+  height: $footer-height;
+
+  .footer-container {
+    @include maxwidth;
+
+    & > a.title {
+      @include clean-anchors;
+      display: inline-block;
+      color: $white;
+      font-size: 35px;
+      padding-top: 13px;
+    }
+
+    ul.admin-menu {
+      height: $footer-height;
+      list-style-type: none;
+      float: right;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          display: block;
+          padding: 0 20px;
+          line-height: $footer-height;
+          color: $white;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

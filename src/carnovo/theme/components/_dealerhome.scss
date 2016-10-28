@@ -1,0 +1,74 @@
+#dealer-home {
+  .section-first {
+    background: url("img/pic-board-1.png") center center;
+    background-size: cover;
+
+    &-inner {
+      height: 629px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        color: $white;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 42px;
+      }
+
+      h4 {
+        margin-top: 0;
+        margin-bottom: 60px;
+        color: $white;
+        font-size: 22px;
+      }
+
+      .btn-success:hover {
+        background-color: #54d98c !important;
+      }
+      .btn-success:active, .btn-success:focus {
+        background-color: #2ecc71 !important;
+      }
+    }
+  }
+  .section-second {
+    background: $primary;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: $white;
+
+    h2 {
+      font-size: 26px;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+  .section-third {
+    .section-third__item {
+      padding: 40px 0;
+      display: flex;
+      align-items: center;
+      border-top: 1px solid $grey-background;
+      font-size: 20px;
+
+      .text {
+        text-align: left;
+      }
+
+      .icon {
+        .svg_icon {
+          width: 90px;
+        }
+        color: $primary;
+        i {
+          font-size: 90px;
+        }
+      }
+    }
+  }
+}

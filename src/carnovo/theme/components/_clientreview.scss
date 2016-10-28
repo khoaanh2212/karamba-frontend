@@ -1,0 +1,290 @@
+.client-review {
+  hr {
+    opacity: 0.5;
+    height: 1px;
+    border: none;
+    /* Set the hr color */
+    color: #ccc ; /* old IE */
+    background-color: #ccc ; /* Modern Browsers */
+    max-width: 1236px;
+  }
+
+  .process-wrapper {
+    width: 35%;
+    margin: 35px auto 50px;
+  }
+
+  .title {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: #535353;
+    .highlight {
+      font-weight: 500;
+    }
+    .desc {
+      padding: 15px 0 50px 0;
+      font-size: 16px;
+    }
+  }
+
+  .content-wrapper {
+    text-align: center;
+    .first-flow {
+      width: 60%;
+      margin: 0 auto;
+      .row {
+        padding: 5px;
+        .lbel {
+          font-size: 16px;
+          font-weight: 500;
+          color: #535353;
+          margin: 13px 0
+        }
+        input[type=text] {
+          float: left;
+          display: inline-block;
+          width: 345px;
+          height: 44px;
+          line-height: 44px;
+          margin-top: 3px;
+          font-size: 16px;
+          font-weight: 300;
+          border: 1px solid #ccc;
+          border-radius: 2px;
+          background: white;
+          vertical-align: middle;
+          color: #535353;
+        }
+      }
+
+    }
+    .second-flow {
+      padding: 30px 0;
+      margin: 50px 0 60px 0;
+      display: inline-block;
+      .box {
+        width: 165px;
+        height: 94px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin: 10px;
+        text-align: center;
+        padding: 20px;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1) translateY(-5%);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)
+        }
+        &.clicked {
+          background: $primary;
+          color: #fff !important;
+          .name {
+            color: #fff !important;
+          }
+        }
+        .price {
+          font-size: 16px;
+          font-weight: 500;
+          vertical-align: middle;
+        }
+        .name {
+          color: #656565;
+          font-size: 13px;
+          font-weight: 300;
+        }
+      }
+    }
+    .third-flow {
+      margin-bottom: 40px;
+      hr {
+        margin-bottom: 0 !important;
+      }
+      .row {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        .greeting {
+          width: 100%;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 15px;
+
+          .img-gift {
+            width: 90px;
+            height: 90px;
+            float: left;
+          }
+
+          .content {
+            text-align: left;
+            font-size: 16px;
+            font-weight: 300;
+            padding-bottom: 0 !important;
+            span {
+              font-weight: 400;
+              color: #3acf79;
+            }
+          }
+        }
+
+        .rating-name {
+          float: left;
+          font-size: 16px;
+          font-weight: 500;
+          text-align: left;
+        }
+        .inner {
+          margin: 15px 0;
+          padding: 15px;
+          height: 100%;
+          .rating-component {
+            width: 60% !important;
+            float: right;
+            i {
+              font-size: 20px;
+            }
+          }
+          #comment {
+            margin-top: 0 !important;
+            border-radius: 1px;
+            border: 1px solid #ccc;
+          }
+        }
+      }
+    }
+  }
+
+  .actions {
+    padding: 20px 0 40px 0;
+  }
+
+  .dropdown-container {
+    float: left;
+    display: block;
+    width: 345px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    &:focus {
+      outline: none;
+    }
+    &.show {
+      .dropdown-select {
+        i {
+          display: none;
+        }
+        span {
+          margin-right: 25px;
+        }
+      }
+      .dropdown-list {
+        display: block;
+        span {
+          padding-right: 15px;
+        }
+      }
+
+    }
+    .dropdown-select {
+      float: left;
+      background: white;
+      width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      color: #535353;
+      position: relative;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      &.selected {
+        span {
+          opacity: 1;
+          color: #000;
+        }
+      }
+      span {
+        font-size: 16px;
+        display: block;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 10px;
+        cursor: pointer;
+        margin-right: 10px;
+        color: #ccc;
+        opacity: 0.5;
+      }
+      .ic-caret-down {
+        position: relative;
+        top: 16px;
+        right: 10px;
+        width: 15px;
+        font-size: 16px;
+        opacity: 0.7;
+        cursor: pointer;
+        float: right;
+      }
+    }
+    .dropdown-list {
+      float:left;
+      width:100%;
+      position:relative;
+      display: none;
+      .wrapper {
+        box-shadow: 0 0 2px 1px rgba(121, 121, 121, 0.3);
+      }
+      div {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        cursor: pointer;
+        background: white;
+        div {
+          float: left;
+          width: 100%;
+          font-size: 16px;
+          font-weight: 300;
+          border-top: none;
+          position: relative;
+          padding: 0 10px;
+          &:hover {
+            background: #f4fafd;
+          }
+          &.selected {
+            display: inline-block;
+          }
+          span {
+            float: left;
+            width: 100%;
+            box-sizing: border-box;
+            color: inherit;
+            height: 40px;
+            line-height: 40px !important;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
+*::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #535353;
+  opacity: 0.3;
+}
+*::-moz-placeholder { /* Firefox 19+ */
+  color: #535353;
+  opacity: 0.3;
+}
+*:-ms-input-placeholder { /* IE 10+ */
+  color: #535353;
+  opacity: 0.3;
+}
+*:-moz-placeholder { /* Firefox 18- */
+  color: #535353;
+  opacity: 0.3;
+}

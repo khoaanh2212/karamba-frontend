@@ -1,0 +1,101 @@
+#confirm-offer {
+  margin-bottom: 30px;
+
+  #content-box {
+    border-left: 0;
+    border-right: solid 1px #CCC !important;
+  }
+
+  #nav-stock {
+    color: $title-grey;
+    padding: 30px 5px 30px 5px;
+    font-weight: 200;
+
+    .offerId {
+      text-align: right;
+      color: $primary;
+      font-size: 20px !important;
+      font-weight: 500 !important;
+    }
+
+    #nav-title {
+      font-size: 28px;
+
+      .separator {
+        color: $grey-separator;
+      }
+
+      span {
+        color: $grey-form-text;
+      }
+    }
+  }
+
+  .confirmOfferContainer {
+    padding: 30px 0 30px 0;
+
+    .left {
+      position: relative;
+    }
+
+    .send-offer {
+      border: 0 !important;
+      color: $white !important;
+      background-color: $success !important;
+    }
+
+    .left > button {
+      background-color: #00a4ff;
+      color: $white !important;
+    }
+
+    .mail-icon {
+      background-image: url(img/icon-mail.svg);
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      top: 14px;
+      right: 20px;
+    }
+  }
+
+  .box {
+    .preview {
+      border-width: 0;
+      border-right: none!important;
+      .content {
+        border-right: 1px solid #ccc!important;
+        min-height: 500px;
+        .price {
+          position: relative;
+          top: 200px;
+
+          >div {
+            text-align: center;
+          }
+          .title {
+            color: #535353;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 17px;
+          }
+          .value {
+            color: #2ecc71;
+            font-size: 27px;
+            font-weight: 500;
+            line-height: 27px;
+            padding: 10px 0 10px 0;
+          }
+          .discount {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 17px;
+          }
+        }
+      }
+      .right-content {
+        border-right: none!important;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+#car-form {
+  .engine {
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+    label {
+      vertical-align: middle;
+      min-height: 60px;
+      width: 20%;
+      //text-align: center; // FIX engine break margin
+      display: inline-block;
+      padding-right: 30px;
+      margin-bottom: 30px;
+    }
+
+    input {
+      display: inline;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      margin: 0;
+      vertical-align: bottom;
+      position: relative;
+      *overflow: hidden;
+    }
+  }
+  .easy-button {
+    .right {
+      float: right;
+      margin-right: 125px;
+    }
+    .left {
+      margin-left: 251px;
+      color: $grey-form-text;
+      background-color: white;
+      border: 1px solid #cccccc;
+    }
+  }
+  h4 {
+    padding-bottom: 20px;
+  }
+
+  .easy-checkbox label, .add-car-extras label {
+    width: 100%;
+  }
+}

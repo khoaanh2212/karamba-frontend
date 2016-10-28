@@ -1,0 +1,38 @@
+#dealer-registration {
+  padding: 25px;
+  color: #686c70;
+  background-color: $grey-light;
+
+  & > form {
+    @include maxwidth;
+  }
+
+  .header {
+    margin-bottom: 50px;
+
+    & > .header-title {
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    & > .header-description {
+      font-size: 18px;
+      line-height: 24px;
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  .form-input {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 15px;
+
+    & > label {
+      font-weight: 700;
+    }
+  }
+}

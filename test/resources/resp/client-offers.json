@@ -1,0 +1,51 @@
+{
+  "status": 0,
+  "data": {
+    "appliance": {
+      "id": "8bd134ea-0358-4550-b4e3-5045b51baac4",
+      "brand": "BMW",
+      "model": "X6",
+      "derivative": "M50d",
+      "price": 107200,
+      "motorType": "diesel",
+      "transmission": "A",
+      "numberOfDoors": 5,
+      "package": {
+        "id": 1611,
+        "name": "[ZBS] Paquete Business (no para clientes particulares)",
+        "price": 6668.25
+      },
+      "extras": [],
+      "color": [],
+      "totalPrice": 113868.25
+    },
+    "offers": [
+      {
+        "id": "50101a33-2312-48ff-894f-a2914dc09bd0",
+        "dealerId": "50101a33-2312-48ff-894f-a2914dc09bd0",
+        "applianceId": "8bd134ea-0358-4550-b4e3-5045b51baac4",
+        "state": "sent_offer",
+        "cashPrice": "45",
+        "foundedPrice": "55",
+        "inStock": true,
+        "isRead": true,
+        "dealerInfo": {
+          "name": "pat",
+          "address": null,
+          "zipCode": null,
+          "vendorName": "patty patty",
+          "vendorRole": "paty patty",
+          "email": "phatpt@mail.com",
+          "schedule": null,
+          "deliveryConditions": null,
+          "specialConditions": null,
+          "phoneNumber": null,
+          "firstUse": false,
+          "description": null,
+          "generalConditions": [],
+          "avatar": null
+        }
+      }
+    ]
+  }
+}

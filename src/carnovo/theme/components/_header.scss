@@ -1,0 +1,439 @@
+header {
+  background: $primary;
+  width: 100%;
+  height: $header-height;
+
+
+  .header-container {
+    & > a.logo {
+      @include clean-anchors;
+      display: inline-block;
+      line-height: 72px;
+      margin-right: 30px;
+      float: left;
+    }
+
+    ul.login-menu, ul.link-menu {
+      height: $header-height;
+      list-style-type: none;
+      float: right;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        i {
+          vertical-align: middle;
+        }
+        a {
+          @include clean-anchors;
+          display: block;
+          padding: 0 24px;
+          line-height: $header-height;
+          color: $white;
+          font-weight: bold;
+
+          &:hover {
+            background-color: $white;
+            color: $primary;
+          }
+          &.active {
+            background-color: $white;
+            color: $primary;
+            i {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+    ul.link-menu {
+      float: left;
+    }
+
+    ul.login-menu {
+      position: relative;
+      li {
+        position: relative;
+        cursor: pointer;
+      }
+      li.badge-info {
+        .user-info {
+          position: relative;
+          display: inline-block;
+          border-radius: 16px;
+          border: 2px solid white;
+          overflow: hidden;
+          width: 220px;
+          height: 30px;
+          text-align: center;
+          vertical-align: middle;
+          margin: 0 25px 0 0;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 30px;
+          /* Prevent background color leak outs */
+          -webkit-background-clip: padding-box;
+          -moz-background-clip:    padding;
+          background-clip:         padding-box;
+          cursor: pointer;
+          .batch {
+            float: left;
+            display: block;
+            z-index: 2;
+            background: #2ecc71;
+            border-radius: 0 16px 16px 0;
+            border-right: 2px solid white;
+            padding: 0 10px;
+            box-shadow: inset -1px 0 0 #fff;
+          }
+          .score {
+            display: block;
+            z-index: 1;
+            background: #219e56;
+            font-weight: 400;
+          }
+        }
+      }
+
+      li.notify {
+        .ic-notify-bell {
+          font-size: 19px !important;
+          color: #fff !important;
+          background: #00A4FF;
+          margin: 0 10px 0 0;
+          cursor: pointer;
+        }
+        .circle {
+          position: absolute;
+          right: 1px;
+          top: 1px;
+          color: white;
+          background: #f0d;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          // Animation
+          opacity: 0;
+          transform: translate(0, 20px) scale(0);
+        }
+        .new {
+          opacity: 1;
+          transform: translate(0, 0) scale(1);
+        }
+
+        &:hover {
+          .new {
+            /* scale only Circle new */
+            transform: scale(1.4);
+            transform-origin: bottom;
+          }
+        }
+      }
+
+      li.user-login {
+        .ic-user {
+          color: white;
+          margin-right: 10px;
+        }
+        .ic-user-logged {
+          font-size: 29px;
+          color: $primary;
+          background-color: #fcf8e3;
+          border-radius: 50%;
+          position: relative;
+          &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 2px solid white;
+            position: absolute;
+            border-radius: 30px;
+          }
+        }
+        .profile-logged {
+          &:hover {
+            background-color: $primary !important;
+            color: $white !important;
+          }
+        }
+        .profile-menu {
+          position: absolute;
+          display: none;
+          z-index: 9999;
+          background: white;
+          width: 122px;
+          top: 66px;
+          right: 10px;
+          border-radius: 3px;
+          box-shadow: 0 0 2px 1px rgba(121, 121, 121, 0.32);
+          .ic-tangle-up {
+            position: absolute;
+            top: -10px;
+            color: white;
+            font-size: 20px;
+            right: 20px;
+          }
+          .menu {
+            border-radius: 0 0 3px 3px;
+            overflow: hidden;
+            li {
+              width: 100%;
+              height: 44px;
+              padding: 10px;
+              display: block;
+              border-bottom: 1px solid $grey;
+              cursor: pointer;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 23px;
+              &:last-child {
+                border-bottom: none !important;
+              }
+              &:hover {
+                background-color: $primary;
+                color: $white;
+              }
+            }
+          }
+        }
+        &:hover {
+          .profile-menu {
+            display: block;
+          }
+
+          .ic-user {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.notification-panel {
+  &.shadow {
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .toggle-notify {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .notification-wrapper {
+    height: 100%;
+    max-width: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: white;
+    padding: 0;
+    margin: 0;
+
+    .row {
+      margin: 0 auto;
+      border-bottom: none !important;
+    }
+
+    .title {
+      width: 100%;
+      height: 72px;
+      max-height: 72px;
+      position: relative;
+      background: $primary;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 10px;
+      margin: 0;
+      line-height: 72px;
+
+      .header {
+        font-size: 26px;
+        font-weight: 500;
+        margin: 0;
+        color: white;
+        float: left;
+      }
+      .circle {
+        color: white;
+        background: #f0d;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 30px !important;
+        font-size: 16px;
+        font-weight: 400;
+        float: left;
+        margin: 21px 10px;
+      }
+    }
+
+    .actions {
+      width: 100%;
+      height: 52px;
+      display: block;
+      margin: 0;
+      padding: 0;
+      border: 1px solid #eee;
+      overflow: hidden;
+
+      .action-box {
+        div {
+          cursor: pointer;
+          display: block;
+          line-height: 48px;
+          width: 100%;
+          height: 100%;
+          color: #eee;
+
+          i {
+            color: rgba(155, 155, 155, 0.5);
+          }
+
+          &:hover {
+            background-color: #f0f6f9;
+            i {
+              color: #535353;
+            }
+          }
+          &.actived {
+            background-color: #f0f6f9;
+            i {
+              color: #535353;
+            }
+          }
+        }
+
+      }
+
+      .action-box {
+        width: 25%;
+        height: 100%;
+        float: left;
+        border-right: 1px solid #eee;
+        margin: 0 auto;
+        text-align: center;
+        :last-child {
+          border-right: none;
+        }
+      }
+    }
+
+    .live-box {
+      width: 100%;
+      min-height: 135px;
+      overflow: hidden;
+      background: white;
+
+      .dash {
+        color: #535353;
+        opacity: 0.7;
+      }
+
+      .active {
+        opacity: 1 !important;
+        background: #f7f7f7 !important;
+        .ic-new-folder {
+          color: #00a4ff;
+        }
+        .ic-phone {
+          color: #37bc9b;
+        }
+        .ic-filled-star {
+          color: #f1c40e;
+        }
+
+      }
+
+      .item {
+        opacity: 0.6;
+        padding: 20px 10px;
+        border-bottom: 1px solid #eee;
+        transition: opacity .25s ease-in-out;
+
+        &:hover {
+          transform: translateY(-1%);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .each {
+          cursor: pointer;
+          color: #eee;
+          height: 100%;
+          margin: 5px;
+
+          .image {
+            width: 80px;
+            height: 125px;
+            float: left;
+            padding: 10px 30px;
+            i {
+              font-size: 18px;
+              text-align: center;
+            }
+          }
+          .content-wrapper {
+            text-align: left;
+            font-size: 17px;
+            color: #535353;
+            height: 125px;
+            .status {
+              font-weight: 700;
+              margin-top: 6px;
+              margin-bottom: 10px;
+            }
+            .description {
+              line-height: 22px;
+              span {
+                font-weight: 500;
+              }
+            }
+            .time {
+              font-size: 15px;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Temporary fix user batch info box collapse in small screen
+@media screen and (max-width: 750px) {
+  .notify, .badge-info {
+    display: none !important;
+  }
+}

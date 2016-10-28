@@ -1,0 +1,178 @@
+{
+  "status": 0,
+  "data": {
+    "stock": [
+      {
+        "id": "29e5c2b7-4346883-409e-ac26-191136813",
+        "brand": {
+          "name": "Audi"
+        },
+        "model": {
+          "brand": "Volkswagen",
+          "name": "Golf Alltrack",
+          "year": "2016"
+        },
+        "vehicle": {
+          "vehicleId": 7583783127360502,
+          "makeKey": "Volkswagen",
+          "makeNameToDisplay": "Volkswagen",
+          "modelKey": "2017",
+          "modelNameToDisplay": "Golf Alltrack",
+          "modelYearToDisplay": "Golf Alltrack",
+          "fuelType": "Diesel",
+          "fuelTypeToDisplay": "Diesel",
+          "derivative": "2.0 TDI 150CV S tronic design edition",
+          "transmission": "A",
+          "numberOfDoorsToDisplay": "4",
+          "derivativeToDisplay": "2.0 TDI 150CV S tronic design edition",
+          "price": "423200",
+          "priceToDisplay": "€423200"
+        },
+        "color": {
+          "optionId": 1120,
+          "optionName": "naranja",
+          "optionTypeName": "Colour",
+          "price": 0,
+          "displayPrice": "€0"
+        },
+        "extras": [
+          {
+            "optionId": 1449,
+            "optionName": "Espejos retrovisores exteriores calefactables",
+            "optionTypeName": "Option",
+            "price": 165.15,
+            "displayPrice": "€165"
+          },
+          {
+            "optionId": 1284,
+            "optionName": "Direccion dinamica",
+            "optionTypeName": "Option",
+            "price": 1221.38,
+            "displayPrice": "€221"
+          }
+        ],
+        "price": {
+          "pvp": 44206.71,
+          "cash": 37576,
+          "discount": 15
+        },
+        "photoUrl": "http://cdn.c.photoshelter.com/img-get/I0000khAZMgs2eLE/s/1000/2015-volkswagen-golf-alltrack-5door-wagon-rear-view.jpg",
+        "isNew": true
+      },
+      {
+        "id": "29e5c2b7-4883-409e-ac26-1erfss36813",
+        "brand": {
+          "name": "Seat"
+        },
+        "model": {
+          "brand": "Seat",
+          "name": "Ateca",
+          "year": "2016"
+        },
+        "vehicle": {
+          "vehicleId": 758783170160502,
+          "makeKey": "Seat",
+          "makeNameToDisplay": "Ateca",
+          "modelKey": "2017",
+          "modelNameToDisplay": "Ateca",
+          "modelYearToDisplay": "Ateca",
+          "fuelType": "Diesel",
+          "fuelTypeToDisplay": "Diesel",
+          "derivative": "2.0 TDI 150CV S tronic design edition",
+          "transmission": "Automatico",
+          "numberOfDoorsToDisplay": "4",
+          "derivativeToDisplay": "2.0 TDI 150CV S tronic design edition",
+          "price": "20500",
+          "priceToDisplay": "€20500"
+        },
+        "color": {
+          "optionId": 1120,
+          "optionName": "Plata Florete (metalizado)",
+          "optionTypeName": "Colour",
+          "price": 0,
+          "displayPrice": "€0"
+        },
+        "extras": [
+          {
+            "optionId": 1449,
+            "optionName": "Espejos retrovisores exteriores calefactables",
+            "optionTypeName": "Option",
+            "price": 165.15,
+            "displayPrice": "€165"
+          },
+          {
+            "optionId": 1284,
+            "optionName": "Direccion dinamica",
+            "optionTypeName": "Option",
+            "price": 1221.38,
+            "displayPrice": "€221"
+          }
+        ],
+        "price": {
+          "pvp": 44206.71,
+          "cash": 37576,
+          "discount": 15
+        },
+        "photoUrl": "http://www.seat.es/content/countries/es/website/es/ofertas/coches-nuevos/ateca/ateca-carrusel/imagen2/_jcr_content.resizeViewPort.noScale.jpg",
+        "isNew": false
+      },
+      {
+        "id": "c89d4e31-3851-47d3-b71c-0b1d8f7e2d35",
+        "brand": {
+          "name": "Audi"
+        },
+        "model": {
+          "brand": "Audi",
+          "name": "A4",
+          "year": "A4"
+        },
+        "vehicle": {
+          "vehicleId": 758783120160501,
+          "makeKey": "Audi",
+          "makeNameToDisplay": "Audi",
+          "modelKey": "2017",
+          "modelNameToDisplay": "A4",
+          "modelYearToDisplay": "A4",
+          "fuelType": "Diesel",
+          "fuelTypeToDisplay": "Diesel",
+          "derivative": "2.0 TDI 150CV S tronic design edition",
+          "transmission": "A",
+          "numberOfDoorsToDisplay": "4",
+          "derivativeToDisplay": "2.0 TDI 150CV S tronic design edition",
+          "price": "41659",
+          "priceToDisplay": "\u20ac41,660"
+        },
+        "color": {
+          "optionId": 1120,
+          "optionName": "Plata Florete (metalizado)",
+          "optionTypeName": "Colour",
+          "price": 0,
+          "displayPrice": "\u20ac0"
+        },
+        "extras": [
+          {
+            "optionId": 1449,
+            "optionName": "Espejos retrovisores exteriores calefactables",
+            "optionTypeName": "Option",
+            "price": 165.15,
+            "displayPrice": "? 165"
+          },
+          {
+            "optionId": 1284,
+            "optionName": "Direccion dinamica",
+            "optionTypeName": "Option",
+            "price": 1221.38,
+            "displayPrice": "? 221"
+          }
+        ],
+        "price": {
+          "pvp": 44206.71,
+          "cash": 37576,
+          "discount": 15
+        },
+        "photoUrl": "http://images.car.bauercdn.com/pagefiles/15850/audia4_2016_02.jpg",
+        "isNew": false
+      }
+    ]
+  }
+}

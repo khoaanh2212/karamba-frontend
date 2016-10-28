@@ -1,0 +1,155 @@
+#dealer-edit-form {
+  color: $grey-form-text;
+
+  .text-edit-form {
+    @include maxwidth;
+
+    label {
+      padding-top: 19px;
+      float: left;
+      display: inline-block;
+      width: 300px;
+      text-align: right;
+      padding-right: 15px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+
+  input {
+    height: 36px;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 10px 10px 12px;
+    background-color: $white;
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+  }
+
+  input, textarea, select {
+    display: inline-block;
+    width: 431px;
+    border: 1px solid $grey;
+    border-radius: 2px;
+    resize: none;
+  }
+
+  h3 {
+    margin-left: 300px;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 431px;
+
+    small {
+      float: right;
+      font-size: 13px;
+      padding-top: 12px;
+      opacity: 0.5;
+    }
+  }
+
+  .condition {
+    border-radius: 2px;
+    height: 38px;
+    width: 405px;
+    border: 1px solid $grey;
+    margin-top: 15px;
+    line-height: 36px;
+    padding: 0 10px;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .delete-condition {
+    float: right;
+    cursor: pointer;
+    i {
+      font-size: 13px;
+      margin-top: 25px;
+      margin-right: 10px;
+    }
+  }
+  .select-conditions {
+    padding-top: 12px;
+    margin-left: 300px;
+    width: 440px;
+    font-size: 14px;
+    select {
+      height: 38px;
+      width: 431px;
+      margin-top: 15px;
+    }
+    h4 {
+      color: $placeholder;
+      font-size: 15px;
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+    hr.open {
+      border-color: #CCC;
+      padding: 0;
+      margin: 0 0 15px;
+    }
+    hr.close {
+      border-color: #CCC;
+      padding: 0;
+      margin: 25px 0 0;
+    }
+  }
+}
+
+#dealer-confirmation {
+  .dealerConfirmationForm {
+    width: 455px;
+    margin: 0 auto;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 32px;
+      color: $grey-black;
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    input {
+      width: 100%;
+      display: block;
+      outline: 0;
+      border-radius: 5px;
+    }
+
+    input.input-login {
+      border: 2px solid $grey;
+      padding: 15px 10px;
+      margin: 20px auto;
+      color: $grey-dark;
+      &:focus {
+        border-color: $primary;
+      }
+    }
+
+    input.button-login {
+      padding: 12px 60px;
+      background-color: $button_success;
+      border: 0;
+      margin: 20px auto;
+      font-weight: 700;
+      color: $white;
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}

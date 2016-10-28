@@ -1,0 +1,16 @@
+.error-message {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  color: $grey-black;
+  border-radius: 10px;
+  background-color: $background-error;
+  border: 1px solid $error;
+
+  span {
+    font-style: italic;
+  }
+}

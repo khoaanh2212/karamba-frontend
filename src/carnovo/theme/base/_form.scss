@@ -1,0 +1,119 @@
+input {
+  &::-webkit-input-placeholder {color:$placeholder}
+  &:-moz-placeholder           {color:$placeholder}
+  &::-moz-placeholder          {color:$placeholder}
+  &:-ms-input-placeholder      {color:$placeholder}
+}
+
+input, textarea, select {
+  width: 100%;
+  display: block;
+  outline: 0;
+  border-radius: 5px;
+  border: 2px solid $grey;
+  padding: 15px 10px;
+  margin: 10px 0;
+  color: $grey-black;
+  transition: border-color 0.15s;
+
+  &:focus {
+    border-color: $primary;
+  }
+}
+
+textarea {
+  height: 118px;
+}
+
+input[disabled] {
+  background-color: $background-disabled;
+  color: $color-disabled;
+}
+
+.button-success {
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+  padding: 12px 60px;
+  background-color: $button_success;
+  border: 0;
+  margin: 20px auto;
+  font-weight: 700;
+  color: $white;
+  font-size: 20px;
+  line-height: 32px;
+  outline: 0;
+}
+
+
+.checkbox {
+  display: inline-block;
+  width: auto;
+
+  label {
+    padding: 0;
+  }
+}
+
+input[type=checkbox].checkbox {
+  visibility: hidden;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+  & + span {
+    color: $grey-form-text;
+    line-height: 18px;
+    font-weight: 300;
+  }
+
+  & + span:before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 15px;
+    vertical-align: text-bottom;
+    background: url('img/icon-checkbox.svg');
+  }
+
+  &:checked + span:before {
+    background: url('img/icon-checkbox-checked.svg');
+  }
+}
+
+.radio {
+  display: inline-block;
+  width: auto;
+
+  label {
+    padding: 0;
+  }
+}
+
+input[type=radio].radio {
+  visibility: hidden;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+  & + span {
+    color: $grey-form-text;
+    line-height: 18px;
+    font-weight: 300;
+  }
+
+  & + span:before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 15px;
+    vertical-align: text-bottom;
+    background: url('img/icon-radio.svg');
+  }
+
+  &:checked + span:before {
+    background: url('img/icon-radio-checked.svg');
+  }
+}

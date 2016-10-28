@@ -1,0 +1,45 @@
+.contactFormDiv {
+  width: 455px;
+  margin: 0 auto;
+
+  .contactForm {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    color: $grey-black;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  input {
+    width: 100%;
+    display: block;
+    outline: 0;
+    border-radius: 5px;
+  }
+
+  input.input-login {
+    border: 2px solid $grey;
+    padding: 15px 10px;
+    margin: 20px auto;
+    color: $grey-dark;
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  input.button-login {
+    padding: 12px 60px;
+    background-color: $button_success;
+    border: 0;
+    margin: 20px auto;
+    font-weight: 700;
+    color: $white;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

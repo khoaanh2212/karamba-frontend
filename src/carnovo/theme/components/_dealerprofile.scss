@@ -1,0 +1,169 @@
+.row {
+  white-space: pre-line;
+  text-align: center;
+  color: $grey-form-text;
+  .profile-block {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+  }
+  .title {
+    padding: 15px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .content {
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .left {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+  .right {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+}
+.edit-background {
+  padding-top: 110px;
+  position: relative;
+}
+.cambiarFoto {
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 17px;
+  i {
+    vertical-align: middle;
+    margin-right:10px;
+  }
+}
+.map-wrapper {
+  position: relative;
+  .right {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .action-button {
+    z-index: 9999;
+    width: 150px;
+    height: 38px;
+    color: $white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: $primary;
+    border: 1px solid $white;
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+.fixed-image {
+  background-color: $grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 400px;
+  position: relative;
+  &:before {
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
+    zoom: 1;
+  }
+  .actions-container {
+    text-align: center;
+    height: 100px;
+    .action-button {
+      width: 110px;
+      height: 38px;
+      color: $white;
+      font-size: 15px;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid $white;
+      border-radius: 2px;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+    .left {
+      float: left;
+      margin: 40px 0 0 0;
+    }
+    .right {
+      float: right;
+      margin: 40px 25px 0 0;
+    }
+  }
+  .edit-avatar {
+    left: calc(50% - 45px);
+    position: absolute;
+    i {
+      margin: 33px;
+      color: white;
+    }
+  }
+  .avatar-container {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90px !important;
+    width: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: $grey-light;
+    filter: brightness(100%);
+    opacity: 1;
+  }
+  .profile-summary {
+    color: $white;
+    text-align: center;
+    filter: brightness(100%);
+    div {
+      padding-top: 10px;
+      opacity: 1;
+    }
+    .name {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .vendorName {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .address {
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+}

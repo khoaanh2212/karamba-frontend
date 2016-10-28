@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+@import "base/fonts/karamba/style.scss";
+
+@font-face {
+  font-family: 'GothamRounded';
+  font-weight: 700;
+  src: url('base/fonts/gothamrnd-bold.eot') format('embedded-opentype'),
+  url('base/fonts/gothamrnd-bold.ttf') format('truetype'),
+  url('base/fonts/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
+}
+@font-face {
+  font-family: 'GothamRounded';
+  font-weight: 500;
+  src: url('base/fonts/gothamrnd-medium.eot') format('embedded-opentype'),
+  url('base/fonts/gothamrnd-medium.woff') format('woff'),
+  url('base/fonts/gothamrnd-medium.ttf') format('truetype'),
+  url('base/fonts/gothamrnd-medium.svg#GothamRoundedMedium') format('svg');
+}
+@font-face {
+  font-family: 'GothamRounded';
+  font-weight: 300;
+  src: url('base/fonts/gothamrnd-light.eot') format('embedded-opentype'),
+  url('base/fonts/gothamrnd-light.woff') format('woff'),
+  url('base/fonts/gothamrnd-light.ttf') format('truetype'),
+  url('base/fonts/gothamrnd-light.svg#GothamRoundedLight') format('svg');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(~material-design-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(~material-design-icons/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+  url(~material-design-icons/iconfont/MaterialIcons-Regular.woff) format('woff'),
+  url(~material-design-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

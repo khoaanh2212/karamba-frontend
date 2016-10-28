@@ -1,0 +1,64 @@
+#model {
+  .model-body {
+    padding-bottom: 60px;
+
+    .row {
+      margin: 0 -10px;
+    }
+
+    .item {
+      padding: 0 10px;
+      margin-bottom: 10px;
+
+      &-inner {
+        @include pointer;
+        border: 1px solid $border-grey-light;
+        border-radius: 3px;
+        line-height: 40px;
+        color: $grey-form-text;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        &:hover {
+          background: $primary;
+          border-color: transparent;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .model-title {
+    padding: 50px 0;
+
+    .btn-close {
+      display: inline-block;
+      vertical-align: top;
+      cursor: pointer;
+      box-shadow: 0 0 2px 1px #a6a6a6;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      margin-top: 5px;
+      opacity: 0.7;
+
+      i {
+        color: #a6a6a6;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 33px;
+      }
+    }
+  }
+  .brand-title {
+    display: inline-block;
+    opacity: 0.3;
+    color: #535353;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+  }
+
+}

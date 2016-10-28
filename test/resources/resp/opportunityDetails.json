@@ -1,0 +1,64 @@
+{
+  "status": 0,
+  "data": {
+    "id": "w45gr-w4y6rt-w4y5rst-45rt",
+    "clientName": "Nicolás L.",
+    "created": "18 de Mayo de 2016",
+    "isNew": "new",
+    "isStock": true,
+    "city": "Barcelona",
+    "appliance":{
+      "vehicle": {
+        "vehicleId": 7583783127360502,
+        "makeKey": "Volkswagen",
+        "makeNameToDisplay": "Volkswagen",
+        "modelKey": "2017",
+        "modelNameToDisplay": "Golf Alltrack",
+        "modelYearToDisplay": "Golf Alltrack",
+        "fuelType": "Diesel",
+        "fuelTypeToDisplay": "Diesel",
+        "derivative": "2.0 TDI 150CV S tronic design edition",
+        "transmission": "Automático",
+        "numberOfDoorsToDisplay": "4",
+        "derivativeToDisplay": "2.0 TDI 150CV S tronic design edition",
+        "price": "423200",
+        "priceToDisplay": "€423200"
+      },
+      "color": {
+        "optionId": 1120,
+        "optionName": "Plata Florete (metalizado)",
+        "optionTypeName": "Colour",
+        "price": 0,
+        "displayPrice": "€0"
+      },
+      "extras": [
+        {
+          "optionId": 1449,
+          "optionName": "Espejos retrovisores exteriores calefactables",
+          "optionTypeName": "Option",
+          "price": 165.15,
+          "displayPrice": "€165"
+        },
+        {
+          "optionId": 1284,
+          "optionName": "Direccion dinamica",
+          "optionTypeName": "Option",
+          "price": 1221.38,
+          "displayPrice": "€221"
+        }
+      ],
+      "price":  44206.71
+    },
+    "offer": {
+      "applianceId": "d703fbcd-96d5-44b4-9532-5f52b7302a1e",
+      "cashPrice" : "5",
+      "dealerId":"d14de074-82c3-4516-932f-9baa65df5bf9",
+      "dealerInfo":null,
+      "foundedPrice":"7",
+      "id":"352f8028-6c3b-44d3-a1be-8fad20750341",
+      "inStock":true,
+      "isRead":true,
+      "state":"sent_offer"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+header {
+  background: $primary;
+  width: 100%;
+  height: $header-height;
+
+  .header-container {
+    @include maxwidth;
+
+    & > a.title {
+      @include clean-anchors;
+      display: inline-block;
+      color: $white;
+      font-size: 35px;
+      padding-top: 13px;
+    }
+
+    ul.admin-menu {
+      height: $header-height;
+      list-style-type: none;
+      float: right;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          @include clean-anchors;
+          display: block;
+          padding: 0 20px;
+          line-height: $header-height;
+          color: $white;
+
+          &:hover {
+            background-color: $link-hover;
+          }
+        }
+      }
+    }
+  }
+}

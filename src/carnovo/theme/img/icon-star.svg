@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="67px" viewBox="0 0 70 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_home_icon_3_84px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Carnovo_Desktop_User" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_home_icon_3_84px" transform="translate(-7.000000, -7.000000)">
+            <polygon id="Shape" points="0 0 84 0 84 84 0 84"></polygon>
+            <path d="M77,32.34 L51.835,30.17 L42,7 L32.165,30.205 L7,32.34 L26.11,48.895 L20.37,73.5 L42,60.445 L63.63,73.5 L57.925,48.895 L77,32.34 L77,32.34 Z M42,53.9 L28.84,61.845 L32.34,46.865 L20.72,36.785 L36.05,35.455 L42,21.35 L47.985,35.49 L63.315,36.82 L51.695,46.9 L55.195,61.88 L42,53.9 L42,53.9 Z" id="Shape" fill="#DDDDDD"></path>
+        </g>
+    </g>
+</svg>

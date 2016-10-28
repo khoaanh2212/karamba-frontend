@@ -1,0 +1,40 @@
+#post-code {
+  text-align: center;
+  .content {
+    width: 345px;
+    margin: auto;
+    position: relative;
+
+    input {
+      margin-bottom: 20px;
+      height: 44px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      font-size: 16px;
+      color: $grey-form-text;
+      font-weight: 300;
+      padding-left: 39px;
+    }
+
+    i{
+      opacity: 0.2;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      top: 14px;
+      left: 19px;
+    }
+
+  }
+
+  button {
+    width: 345px;
+    height: 44px;
+    background-color: $success;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: $white;
+    margin-bottom: 73px;
+  }
+}

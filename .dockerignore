@@ -1,0 +1,6 @@
+!dist
+!conf.d
+build/
+Dockerfile
+.dockerignore
+node_modules/

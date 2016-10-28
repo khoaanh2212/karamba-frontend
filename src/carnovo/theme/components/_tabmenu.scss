@@ -1,0 +1,33 @@
+
+.tab-container{
+  padding-top: 30px;
+  text-align: center;
+  .underscore{
+    border-bottom: 2px solid $grey-light;
+    padding-top: 42px;
+  }
+  ul{
+    height: 60px;
+    list-style-type: none;
+    font-size: 16px;
+    float: left;
+    padding: 0;
+    margin:0;
+    width: 100%;
+    li{
+      display: inline-block;
+      margin: 0 20px 0 20px;
+      a{
+        margin-top:20px;
+        text-decoration: none;
+        padding: 0 20px 20px 20px;
+        color: $grey-inactive-tab-menu;
+        font-weight: bold;
+        &.active{
+          color: $grey-form-text;
+          border-bottom: 4px solid $primary;
+        }
+      }
+    }
+  }
+}

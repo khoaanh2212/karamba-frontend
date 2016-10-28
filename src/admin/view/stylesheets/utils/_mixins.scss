@@ -1,0 +1,38 @@
+@mixin clean-anchors {
+  &:link {
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus, &:active {
+    text-decoration: none;
+  }
+}
+
+@mixin sticky-footer($footer-height: $footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("footer")) {
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    }
+  }
+  #{$footer-selector} {
+    height: $footer-height;
+  }
+}
+
+@mixin maxwidth($max-width: $max-width) {
+  padding: 0 50px;
+  max-width: $max-width;
+  margin: 0 auto;
+}

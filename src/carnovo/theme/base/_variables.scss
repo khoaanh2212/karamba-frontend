@@ -1,0 +1,99 @@
+$primary: #00A4FF;
+$primary-background: #e5f6ff;
+$success: #2ecc71;
+$grey-primary: #F2FAFF;
+$pale-primary: #F4FAFD;
+
+$white: #FFF;
+$grey-light: #eee;
+$grey: #CCC;
+$grey-dark: #a6a6a6;
+$grey-inactive-tab-menu: #9d9d9d;
+$grey-metal: #85888B;
+$grey-form-text: #535353;
+$grey-black: #4c4f52;
+$grey-background: #EEEEEE;
+$grey-separator: #d7dade;
+$grey-dark-more: #dddddd;
+$black: #000;
+
+$title-grey: $grey-metal;
+$secondary: $grey-black;
+$placeholder: $grey-dark;
+$background-disabled: $grey-light;
+$color-disabled: $grey-form-text;
+$error: #ff4a4c;
+$background-error: lighten($error, 30);
+$link-hover: #4dbfff;
+
+$header-height: 72px;
+$footer-height: 72px;
+
+$max-width: 1236px;
+
+$background-footer: #333638;
+
+$border-light: #d8d8d8;
+$border-grey-light-more: #dddddd;
+$border-grey-light: #cccccc;
+$border-grey: #474a4d;
+$border-dark: #404245;
+
+$title: #4c4f52;
+
+$button_success: #2ecc71;
+$aquamarine: #71ead9;
+
+$font-family: 'GothamRounded', sans-serif;
+$font-size: 16px;
+$font-weight: 300;
+
+.clear {
+  clear: both;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.text-blue {
+  color: $primary !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+$positions: top left right bottom;
+$numbers: 0 5 10 15 25 30 60;
+
+@each $position in $positions {
+  @each $number in $numbers {
+    .padding-#{$position}-#{$number} {
+      padding-#{$position}: #{$number}px !important;
+    }
+
+    .padding-#{$number} {
+      padding: #{$number}px !important;
+    }
+
+    .margin-#{$position}-#{$number} {
+      margin-#{$position}: #{$number}px !important;
+    }
+
+    .margin-#{$number} {
+      margin: #{$number}px !important;
+    }
+
+  }
+}
+
+.ul-default {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

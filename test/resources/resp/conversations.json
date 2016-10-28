@@ -1,0 +1,29 @@
+{
+  "status":0,
+  "data": {
+    "conversations": [
+      {
+        "id": "w45gr-w4y6rt-w4y5rst-45rt",
+        "brand": "Audi",
+        "model": "A4",
+        "pvp": "41600",
+        "clientName": "José F.",
+        "numberOffers": "0",
+        "state": "new_message",
+        "created": "18 May 2016 17:54",
+        "isRead": true
+      },
+      {
+        "id": "4r24gr-w4yhrtrt-w4st-45rt",
+        "brand": "BMW",
+        "model": "3 Series",
+        "pvp": "38400",
+        "clientName": "David G.",
+        "numberOffers": "1",
+        "state": "new_message",
+        "created": "18 May 2016 17:54",
+        "isRead": true
+      }
+    ]
+  }
+}

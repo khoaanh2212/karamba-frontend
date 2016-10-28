@@ -1,0 +1,193 @@
+{
+  "status": 0,
+  "data": {
+    "dealer" : {
+      "profile": {
+        "avatar": "http://2.bp.blogspot.com/-rscYau_uPsM/Tzr34Us2HMI/AAAAAAAAB0Q/gtjnks_Gpw4/s200/avatar.jpg",
+        "background": "http://image.redbull.com/rbx00498/0001/2/600/445/inarticle_eaurouge_3231231.jpg",
+        "name": "Tag Heuer BMW M Models",
+        "address": "Weissbier Strasse 46\n Köln\n Deutschland",
+        "zipCode": "08011",
+        "vendorName": "Max Verstappen",
+        "vendorRole": "Number One Driver",
+        "email": "email3",
+        "schedule": "Mon - Sun \n 9:00 AM - 6:00 PM",
+        "phoneNumber": null,
+        "firstUse": true,
+        "latitude":41.437869,
+        "longitude":2.196618,
+        "generalConditions": [
+          {"id": 1, "text": "CONDITION_1"},
+          {"id": 3, "text": "CONDITION_3"}
+        ]
+      }
+    },
+    "offers": [
+      {
+        "appliance": {
+          "color": {
+            "displayPrice":"€0",
+            "optionId":1120,
+            "optionName":"Plata Florete (metalizado)",
+            "optionTypeName":"Colour",
+            "price":0
+          },
+          "extras": [
+            {
+              "displayPrice":"€165",
+              "optionId":1449,
+              "optionName":"Espejos retrovisores exteriores calefactables",
+              "optionTypeName":"Option",
+              "price":165.15
+            },
+            {
+              "displayPrice":"€221",
+              "optionId":1284,
+              "optionName":"Direccion dinamica",
+              "optionTypeName":"Option",
+              "price":1221.38
+            }
+          ],
+          "price":44206.71,
+          "vehicle":{
+            "derivative":"2.0 TDI 150CV S tronic design edition",
+            "derivativeToDisplay":"2.0 TDI 150CV S tronic design edition",
+            "fuelType":"Diesel",
+            "fuelTypeToDisplay":"Diesel",
+            "makeKey":"Volkswagen",
+            "makeNameToDisplay":"Volkswagen",
+            "modelKey":"2017",
+            "modelNameToDisplay":"Golf Alltrack",
+            "modelYearToDisplay":"Golf Alltrack",
+            "numberOfDoorsToDisplay":"4",
+            "price":423200,
+            "priceToDisplay":"€423200",
+            "transmission":"Automático",
+            "vehicleId":7583783127360502
+          },
+          "city":"Barcelona",
+          "clientName":"Nicolás L.",
+          "created":"18 de Mayo de 2016",
+          "id":"w45gr-w4y6rt-w4y5rst-45rt",
+          "isNew":"new",
+          "isStock":true
+        },
+        "cashPrice":"5",
+        "foundedPrice":"7",
+        "id":"352f8028-6c3b-44d3-a1be-8fad20750341"
+      }
+    ],
+    "reviews" : {
+      "ratings": {
+        "5": 12,
+        "4": 3,
+        "3": 28,
+        "2": 4,
+        "1": 2
+      },
+      "ratingByType" : {
+        "kindness": 1,
+        "communication": 2,
+        "knowledge": 3,
+        "process": 4
+      },
+      "comments": {
+        "hasMore": true,
+        "total": 100,
+        "data": [
+          {
+            "reviewerFullName": "Pedro W.1",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.2",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.3",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.4",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.5",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.6",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.7",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.8",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.9",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.10",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.11",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.12",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          },
+          {
+            "reviewerFullName": "Pedro W.13",
+            "reviewerBusinessName": "Compro un Volkswagen Passat",
+            "comment": "Greate experience at Coventry Audi - highly recommended.",
+            "created": "2016-10-17T08:48:29.695Z",
+            "rating": 3
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.register-success {
+  margin: 50px auto;
+  text-align: center;
+  width: 100%;
+
+  & > i {
+    margin-right: 10px;
+    color: $primary;
+    vertical-align: middle;
+    font-weight: 700;
+  }
+}

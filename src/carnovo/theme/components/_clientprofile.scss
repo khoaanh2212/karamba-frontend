@@ -1,0 +1,112 @@
+.client-profile {
+  width: 100%;
+
+  .disable-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .greeting {
+    font-size: 26px;
+    font-weight: 500;
+    color: #535353;
+    text-align: center;
+    padding: 60px 0 40px;
+    .more {
+      font-size: 16px;
+      font-weight: 300;
+      width: 70%;
+      margin: 10px auto;
+      padding: 10px 10px 30px 10px;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  .profile-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    hr {
+      opacity: 0.2;
+      height: 1px;
+      border: none;
+      /* Set the hr color */
+      color: #e2e2e2 ; /* old IE */
+      background-color: #e2e2e2 ; /* Modern Browsers */
+      max-width: 1236px;
+    }
+    .bottom-high {
+      margin-bottom: 60px !important;
+    }
+
+    .row {
+      width: 75%;
+      margin: 10px auto;
+
+      .col-md-5 {
+        margin: 22px auto;
+        text-align: left;
+      }
+      .change-pass {
+        text-align: left;
+        font-size: 13px;
+        font-weight: 300;
+        color: $primary;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      .col-md-6 {
+        .form-input{
+          label {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .profile-submit {
+    padding: 20px 0 45px;
+    border-top: 1px solid #ccc;
+    width: 70%;
+    margin: 0 auto;
+
+    .easy-button button {
+      width: 350px;
+    }
+    .find-mail {
+      font-size: 16px;
+      font-weight: 300;
+      color: #535353;
+      cursor: pointer;
+      span {
+        color: $primary;
+      }
+    }
+  }
+  .rating {
+
+    padding: 30px 0 0 20px;
+    border-top: 1px solid #ccc;
+    width: 70%;
+    margin: 0 auto;
+
+    .row {
+      margin: 60px auto 45px;
+      .link {
+        font-size: 26px;
+        font-weight: 300;
+        color: $primary;
+        cursor: pointer;
+      }
+      .desc {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #535353;
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

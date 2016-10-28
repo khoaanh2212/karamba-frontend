@@ -1,0 +1,46 @@
+#brand {
+  .brand-body {
+    padding-bottom: 60px;
+
+    .row {
+      margin: 0 -10px;
+    }
+
+    .item {
+      padding: 0 10px;
+      margin-bottom: 10px;
+
+      &-inner {
+        @include pointer;
+        border: 1px solid $border-grey-light;
+        border-radius: 3px;
+        line-height: 40px;
+        color: $grey-form-text;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        &:hover {
+          background: $primary;
+          border-color: transparent;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .brand-title {
+    padding: 60px 0;
+
+    .btn-close {
+      float: right;
+      margin-top: -25px;
+      cursor: pointer;
+
+      img {
+        opacity: 0.5;
+      }
+    }
+  }
+
+}

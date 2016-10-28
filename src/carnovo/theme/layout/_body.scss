@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body, #root, #app {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+h1.title {
+  margin: 0;
+  color: $grey-form-text;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "GothamRounded", sans-serif;
+}
+
+.font-sm {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.btn-border {
+  border: 2px solid $white;
+  background: transparent;
+  color: $white;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: $white;
+  }
+}

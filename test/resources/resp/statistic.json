@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "data": {
+    "statistic": [
+      {
+        "status": "expired",
+        "quantity": 132
+      },
+      {
+        "status": "received",
+        "quantity": 24
+      },
+      {
+        "status": "requested",
+        "quantity": 15
+      },
+      {
+        "status": "performed",
+        "quantity": 54
+      },
+      {
+        "status": "won",
+        "quantity": 7
+      },
+      {
+        "status": "lost",
+        "quantity": 8
+      }
+    ]
+  }
+}

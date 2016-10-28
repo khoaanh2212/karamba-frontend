@@ -1,0 +1,13 @@
+#errors {
+  .error {
+    color: $error;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 1px solid $error;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: lighten($error, 30);
+  }
+}
